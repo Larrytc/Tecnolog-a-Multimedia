@@ -1,3 +1,7 @@
+body{
+	background-color: #DEE2FF
+}
+
 footer
 {
 	color: rgba(255,255,255,0.7);
@@ -73,25 +77,25 @@ header #logo img:hover{
 }
 
 .cambio-color{
-	background-color: green;
-	border-color: green;
-	border-radius: 0;
+	background-color: green !important;
+	border-color: green !important;
+	border-radius: 0 !important;
 }
 
 .cambio-color .cambio-color-texto li a{
-	color: #FFFFFF;
-	padding: 15px 88px;
+	color: #FFFFFF !important;
+	padding: 15px 88px !important;
 }
 
 .cambio-color-texto{
-	position: absolute;
+	/*position: absolute;*/
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	margin: auto;
-	width: 1500px;
-	height: 100%;
+	/*width: 1500px;*/
+	/*height: 100%;*/
 }
 
 
