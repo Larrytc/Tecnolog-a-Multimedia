@@ -1,0 +1,207 @@
+footer
+{
+	color: rgba(255,255,255,0.7);
+	background: #690;
+	text-align: center;
+	padding: 1em;
+}
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:after
+{
+	content: " *";
+}
+footer p:last-child:before
+{
+	content: "* ";
+}
+
+
+header
+{
+	background: #FFFFFF;
+	color: green;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header figure
+{
+	float: left;
+}
+header h1
+{
+	font-size: 1.2em; /*em = 16px */
+	font-weight: normal;
+	margin: 0.2em 70px 0 0;
+}
+header	#avatar
+{
+	margin:  0.5em 0.5em 0 0;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+header #avatar img
+{
+	border-radius: 50%;
+	width: 65px;
+}
+header #logo img
+{
+	/*border-right: 1px solid white;*/
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	width: 52px;
+	transition: all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+}
+
+header #logo img:hover{
+	transform: scale(1.1) rotate (-360deg);
+	-webkit-transform: scale(1.1) rotate(-360deg);
+}
+
+.navbar-default .navbar-nav > li .cambio-color{
+	color: #FFFFFF;
+}
+
+.cambio-color{
+	background-color: green;
+	border-color: green;
+	border-radius: 0;
+}
+
+.cambio-color .cambio-color-texto li a{
+	color: #FFFFFF;
+	padding: 15px 88px;
+}
+
+.cambio-color-texto{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 1500px;
+	height: 100%;
+}
+
+
+#contenido{
+		margin: 1em;
+		padding: 1em;
+	}
+#contenido .item{
+		background: white;
+		border-bottom: 3px solid #690;
+		margin-bottom: 3em;
+		min-height: 128px;
+	
+}
+
+#contenido .item .fotos{
+		text-align: center;
+	}
+#contenido .item_parrafo{
+		background: white;
+		border-bottom: 3px solid #690;
+		margin-bottom: 3em;
+		padding:  1em;
+		}
+
+#contenido .item .autor_item
+{
+	color: #AAA;
+
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	border-radius: 0.5em;
+	color:white;
+	float: left;
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img
+{
+ 	width: 126px;
+}
+
+#contenido .item .imagen_item #foto1{
+	padding-top: 10px;
+	width: 115px;
+}
+
+#contenido .item .imagen_item #foto2{
+	padding-top: 10px;
+	width: 115px;
+}
+
+#contenido .item .imagen_item #foto3{
+	padding-top: 10px;
+	width: 135px;
+}
+#contenido .item .imagen_item #foto4{
+	padding-top: 10px;
+	width: 125px;
+}
+
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 1em 1em 0 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+
+/*Estilo para el formulario contacto */
+#contenido .item1
+{
+	background: white;
+	border-bottom: 3px solid #690;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+	padding: 1em;
+}
+
+/*formulario de contacto recuadros */
+#contenido .item1 .item1_cuadro1
+{
+	border-radius: 0.5em;
+	border: none;
+	background: #EEEEEE;
+	padding: 1em;
+
+}
+
+/*boton contactame del formulario*/
+#contenido .item1 .item_button
+{	
+	border-radius: 1em;
+	background: green;
+	border: none;
+	color: white;
+	padding: 0.5em;
+}
+
+
